@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:lfl_project/src/shared/ui/widget/lf_img.dart';
 
-class SplashView extends StatelessWidget {
-  const SplashView({super.key});
+class OnboardingView extends StatelessWidget {
+  const OnboardingView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +10,7 @@ class SplashView extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [ImgWidget(name: 'logo')],
+          children: [Text('this is onboarding page')],
         ),
       ),
     );

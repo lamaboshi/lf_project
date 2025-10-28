@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-class SbSvg extends StatelessWidget {
+class SvgWidget extends StatelessWidget {
   final String name;
   final Color? color;
   final double? size;
   final bool withColor;
-  const SbSvg({
+  const SvgWidget({
     required this.name,
     this.color,
     this.size,

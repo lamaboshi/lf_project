@@ -22,10 +22,8 @@ class _LFLAppState extends State<LFLApp> {
           debugShowCheckedModeBanner: false,
           title: 'LFL Project',
           theme: ThemeData(primarySwatch: Colors.blue),
-          initialBinding: AppPages.initialBinding(),
           initialRoute: AppPages.initial,
           getPages: AppPages.routes,
-          unknownRoute: AppPages.unknownRoute,
           defaultTransition: Transition.fadeIn,
           enableLog: true,
         );
